@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='utf-8'?>
+<AUTOSAR>
+  <AR-PACKAGES>
+    <AR-PACKAGE>
+      <SHORT-NAME>WdgPackage</SHORT-NAME>
+      <ELEMENTS>
+        <ECUC-CONTAINER-VALUE>
+          <SHORT-NAME>WdgConfigSet</SHORT-NAME>
+          <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR/EcucDefs/Wdg/WdgConfigSet</DEFINITION-REF>
+          <PARAMETER-VALUES>
+            <ECUC-BOOLEAN-PARAM-VALUE>
+              <SHORT-NAME>WdgConfigSetIncluded</SHORT-NAME>
+              <VALUE>true</VALUE>
+            </ECUC-BOOLEAN-PARAM-VALUE>
+          </PARAMETER-VALUES>
+        </ECUC-CONTAINER-VALUE><ECUC-CONTAINER-VALUE>
+          <SHORT-NAME>WdgGeneral</SHORT-NAME>
+          <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR/EcucDefs/Wdg/WdgGeneral</DEFINITION-REF>
+          <PARAMETER-VALUES>
+            <ECUC-BOOLEAN-PARAM-VALUE>
+              <SHORT-NAME>WdgDevErrorDetect</SHORT-NAME>
+              <VALUE>True</VALUE>
+            </ECUC-BOOLEAN-PARAM-VALUE><ECUC-BOOLEAN-PARAM-VALUE>
+              <SHORT-NAME>WdgDisableAllowed</SHORT-NAME>
+              <VALUE>True</VALUE>
+            </ECUC-BOOLEAN-PARAM-VALUE><ECUC-NUMERICAL-PARAM-VALUE>
+              <SHORT-NAME>WdgIndex</SHORT-NAME>
+              <VALUE>0</VALUE>
+            </ECUC-NUMERICAL-PARAM-VALUE><ECUC-NUMERICAL-PARAM-VALUE>
+              <SHORT-NAME>WdgInitialTimeout</SHORT-NAME>
+              <VALUE>100</VALUE>
+            </ECUC-NUMERICAL-PARAM-VALUE><ECUC-NUMERICAL-PARAM-VALUE>
+              <SHORT-NAME>WdgMaxTimeout</SHORT-NAME>
+              <VALUE>1000</VALUE>
+            </ECUC-NUMERICAL-PARAM-VALUE><ECUC-TEXTUAL-PARAM-VALUE>
+              <SHORT-NAME>WdgRunArea</SHORT-NAME>
+              <VALUE>RAM</VALUE>
+            </ECUC-TEXTUAL-PARAM-VALUE><ECUC-BOOLEAN-PARAM-VALUE>
+              <SHORT-NAME>WdgVersionInfoApi</SHORT-NAME>
+              <VALUE>True</VALUE>
+            </ECUC-BOOLEAN-PARAM-VALUE>
+          </PARAMETER-VALUES>
+        </ECUC-CONTAINER-VALUE><ECUC-CONTAINER-VALUE>
+          <SHORT-NAME>WdgSettingsConfig</SHORT-NAME>
+          <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR/EcucDefs/Wdg/WdgSettingsConfig</DEFINITION-REF>
+          <PARAMETER-VALUES>
+            <ECUC-TEXTUAL-PARAM-VALUE>
+              <SHORT-NAME>WdgDefaultMode</SHORT-NAME>
+              <VALUE>WDGIF_FAST_MODE</VALUE>
+            </ECUC-TEXTUAL-PARAM-VALUE><ECUC-BOOLEAN-PARAM-VALUE>
+              <SHORT-NAME>WdgExternalConfiguration</SHORT-NAME>
+              <VALUE>False</VALUE>
+            </ECUC-BOOLEAN-PARAM-VALUE><ECUC-BOOLEAN-PARAM-VALUE>
+              <SHORT-NAME>WdgSettingsFast</SHORT-NAME>
+              <VALUE>True</VALUE>
+            </ECUC-BOOLEAN-PARAM-VALUE><ECUC-BOOLEAN-PARAM-VALUE>
+              <SHORT-NAME>WdgSettingsOff</SHORT-NAME>
+              <VALUE>True</VALUE>
+            </ECUC-BOOLEAN-PARAM-VALUE><ECUC-BOOLEAN-PARAM-VALUE>
+              <SHORT-NAME>WdgSettingsSlow</SHORT-NAME>
+              <VALUE>True</VALUE>
+            </ECUC-BOOLEAN-PARAM-VALUE>
+          </PARAMETER-VALUES>
+        </ECUC-CONTAINER-VALUE><ECUC-CONTAINER-VALUE>
+          <SHORT-NAME>WdgPublishedInformation</SHORT-NAME>
+          <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR/EcucDefs/Wdg/WdgPublishedInformation</DEFINITION-REF>
+          <PARAMETER-VALUES>
+            <ECUC-TEXTUAL-PARAM-VALUE>
+              <SHORT-NAME>WdgTriggerMode</SHORT-NAME>
+              <VALUE>DG_BOTH</VALUE>
+            </ECUC-TEXTUAL-PARAM-VALUE>
+          </PARAMETER-VALUES>
+        </ECUC-CONTAINER-VALUE>
+      </ELEMENTS>
+    </AR-PACKAGE>
+  </AR-PACKAGES>
+</AUTOSAR>

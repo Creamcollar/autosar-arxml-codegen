@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='utf-8'?>
+<AUTOSAR>
+  <AR-PACKAGES>
+    <AR-PACKAGE>
+      <SHORT-NAME>GptPackage</SHORT-NAME>
+      <ELEMENTS>
+        <ECUC-MODULE-CONFIGURATION-VALUES>
+          <SHORT-NAME>GptConfig</SHORT-NAME>
+          <DEFINITION-REF DEST="ECUC-MODULE-DEF">/AUTOSAR/EcucDefs/Gpt</DEFINITION-REF>
+          <CONTAINERS>
+            <ECUC-CONTAINER-VALUE>
+              <SHORT-NAME>GptConfigSet</SHORT-NAME>
+              <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR/EcucDefs/Gpt/GptConfigSet</DEFINITION-REF>
+              <PARAMETER-VALUES>
+                <ECUC-BOOLEAN-PARAM-VALUE>
+                  <SHORT-NAME>GptConfigSetIncluded</SHORT-NAME>
+                  <VALUE>true</VALUE>
+                </ECUC-BOOLEAN-PARAM-VALUE>
+              </PARAMETER-VALUES>
+            </ECUC-CONTAINER-VALUE><ECUC-CONTAINER-VALUE>
+              <SHORT-NAME>GptDriverConfiguration</SHORT-NAME>
+              <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR/EcucDefs/Gpt/GptDriverConfiguration</DEFINITION-REF>
+              <PARAMETER-VALUES>
+                <ECUC-BOOLEAN-PARAM-VALUE>
+                  <SHORT-NAME>GptDevErrorDetect</SHORT-NAME>
+                  <VALUE>False</VALUE>
+                </ECUC-BOOLEAN-PARAM-VALUE><ECUC-BOOLEAN-PARAM-VALUE>
+                  <SHORT-NAME>GptPredefTimer100us32bitEnable</SHORT-NAME>
+                  <VALUE>False</VALUE>
+                </ECUC-BOOLEAN-PARAM-VALUE><ECUC-TEXTUAL-PARAM-VALUE>
+                  <SHORT-NAME>GptPredefTimer1usEnablingGrade</SHORT-NAME>
+                  <VALUE>GPT_PREDEF_TIMER_1US_DISABLED</VALUE>
+                </ECUC-TEXTUAL-PARAM-VALUE><ECUC-BOOLEAN-PARAM-VALUE>
+                  <SHORT-NAME>GptReportWakeupSource</SHORT-NAME>
+                  <VALUE>False</VALUE>
+                </ECUC-BOOLEAN-PARAM-VALUE>
+              </PARAMETER-VALUES>
+            </ECUC-CONTAINER-VALUE><ECUC-CONTAINER-VALUE>
+              <SHORT-NAME>GptClockReferencePoint</SHORT-NAME>
+              <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR/EcucDefs/Gpt/GptClockReferencePoint</DEFINITION-REF>
+              <PARAMETER-VALUES>
+                <ECUC-BOOLEAN-PARAM-VALUE>
+                  <SHORT-NAME>GptClockReference</SHORT-NAME>
+                  <VALUE>False</VALUE>
+                </ECUC-BOOLEAN-PARAM-VALUE>
+              </PARAMETER-VALUES>
+            </ECUC-CONTAINER-VALUE><ECUC-CONTAINER-VALUE>
+              <SHORT-NAME>GptChannelConfiguration</SHORT-NAME>
+              <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR/EcucDefs/Gpt/GptChannelConfiguration</DEFINITION-REF>
+              <PARAMETER-VALUES>
+                <ECUC-NUMERICAL-PARAM-VALUE>
+                  <SHORT-NAME>GptChannelId</SHORT-NAME>
+                  <VALUE>0</VALUE>
+                </ECUC-NUMERICAL-PARAM-VALUE><ECUC-TEXTUAL-PARAM-VALUE>
+                  <SHORT-NAME>GptChannelMode</SHORT-NAME>
+                  <VALUE>GPT_CH_MODE_CONTINUOUS</VALUE>
+                </ECUC-TEXTUAL-PARAM-VALUE><ECUC-NUMERICAL-PARAM-VALUE>
+                  <SHORT-NAME>GptChannelTickFrequency</SHORT-NAME>
+                  <VALUE>0</VALUE>
+                </ECUC-NUMERICAL-PARAM-VALUE><ECUC-NUMERICAL-PARAM-VALUE>
+                  <SHORT-NAME>GptChannelTickValueMax</SHORT-NAME>
+                  <VALUE>0</VALUE>
+                </ECUC-NUMERICAL-PARAM-VALUE><ECUC-BOOLEAN-PARAM-VALUE>
+                  <SHORT-NAME>GptEnableWakeup</SHORT-NAME>
+                  <VALUE>False</VALUE>
+                </ECUC-BOOLEAN-PARAM-VALUE><ECUC-TEXTUAL-PARAM-VALUE>
+                  <SHORT-NAME>GptNotification</SHORT-NAME>
+                  <VALUE />
+                </ECUC-TEXTUAL-PARAM-VALUE><ECUC-BOOLEAN-PARAM-VALUE>
+                  <SHORT-NAME>GptChannelClkSrcRef</SHORT-NAME>
+                  <VALUE>False</VALUE>
+                </ECUC-BOOLEAN-PARAM-VALUE>
+              </PARAMETER-VALUES>
+            </ECUC-CONTAINER-VALUE><ECUC-CONTAINER-VALUE>
+              <SHORT-NAME>GptChannelConfigSetValue</SHORT-NAME>
+              <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR/EcucDefs/Gpt/GptChannelConfigSetValue</DEFINITION-REF>
+              <PARAMETER-VALUES>
+                <ECUC-NUMERICAL-PARAM-VALUE>
+                  <SHORT-NAME>GptChannelConfigSetValue</SHORT-NAME>
+                  <VALUE>0</VALUE>
+                </ECUC-NUMERICAL-PARAM-VALUE>
+              </PARAMETER-VALUES>
+            </ECUC-CONTAINER-VALUE><ECUC-CONTAINER-VALUE>
+              <SHORT-NAME>GptWakeupConfiguration</SHORT-NAME>
+              <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR/EcucDefs/Gpt/GptWakeupConfiguration</DEFINITION-REF>
+              <PARAMETER-VALUES>
+                <ECUC-BOOLEAN-PARAM-VALUE>
+                  <SHORT-NAME>GptWakeupSourceRef</SHORT-NAME>
+                  <VALUE>False</VALUE>
+                </ECUC-BOOLEAN-PARAM-VALUE>
+              </PARAMETER-VALUES>
+            </ECUC-CONTAINER-VALUE><ECUC-CONTAINER-VALUE>
+              <SHORT-NAME>GptConfigurationOfOptApiServices</SHORT-NAME>
+              <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR/EcucDefs/Gpt/GptConfigurationOfOptApiServices</DEFINITION-REF>
+              <PARAMETER-VALUES>
+                <ECUC-BOOLEAN-PARAM-VALUE>
+                  <SHORT-NAME>GptDeinitApi</SHORT-NAME>
+                  <VALUE>False</VALUE>
+                </ECUC-BOOLEAN-PARAM-VALUE><ECUC-BOOLEAN-PARAM-VALUE>
+                  <SHORT-NAME>GptEnableDisableNotificationApi</SHORT-NAME>
+                  <VALUE>False</VALUE>
+                </ECUC-BOOLEAN-PARAM-VALUE><ECUC-BOOLEAN-PARAM-VALUE>
+                  <SHORT-NAME>GptTimeElapsedApi</SHORT-NAME>
+                  <VALUE>False</VALUE>
+                </ECUC-BOOLEAN-PARAM-VALUE><ECUC-BOOLEAN-PARAM-VALUE>
+                  <SHORT-NAME>GptTimeRemainingApi</SHORT-NAME>
+                  <VALUE>False</VALUE>
+                </ECUC-BOOLEAN-PARAM-VALUE><ECUC-BOOLEAN-PARAM-VALUE>
+                  <SHORT-NAME>GptVersionInfoApi</SHORT-NAME>
+                  <VALUE>False</VALUE>
+                </ECUC-BOOLEAN-PARAM-VALUE><ECUC-BOOLEAN-PARAM-VALUE>
+                  <SHORT-NAME>GptWakeupFunctionalityApi</SHORT-NAME>
+                  <VALUE>False</VALUE>
+                </ECUC-BOOLEAN-PARAM-VALUE>
+              </PARAMETER-VALUES>
+            </ECUC-CONTAINER-VALUE>
+          </CONTAINERS>
+        </ECUC-MODULE-CONFIGURATION-VALUES>
+      </ELEMENTS>
+    </AR-PACKAGE>
+  </AR-PACKAGES>
+</AUTOSAR>

@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<AUTOSAR>
+  <AR-PACKAGES>
+    <AR-PACKAGE>
+      <SHORT-NAME>DioPackage</SHORT-NAME>
+      <ELEMENTS>
+        <ECUC-MODULE-CONFIGURATION-VALUES>
+          <SHORT-NAME>DioConfig</SHORT-NAME>
+          <DEFINITION-REF DEST="ECUC-MODULE-DEF">/AUTOSAR/EcucDefs/Dio</DEFINITION-REF>
+          <CONTAINERS>
+            <ECUC-CONTAINER-VALUE>
+              <SHORT-NAME>DioConfigSet</SHORT-NAME>
+              <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR/EcucDefs/Dio/DioConfigSet</DEFINITION-REF>
+              <PARAMETER-VALUES>
+                <ECUC-BOOLEAN-PARAM-VALUE>
+                  <SHORT-NAME>DioConfigSetIncluded</SHORT-NAME>
+                  <VALUE>true</VALUE>
+                </ECUC-BOOLEAN-PARAM-VALUE>
+              </PARAMETER-VALUES>
+            </ECUC-CONTAINER-VALUE><ECUC-CONTAINER-VALUE>
+              <SHORT-NAME>DioGeneral</SHORT-NAME>
+              <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR/EcucDefs/Dio/DioGeneral</DEFINITION-REF>
+              <PARAMETER-VALUES>
+                <ECUC-BOOLEAN-PARAM-VALUE>
+                  <SHORT-NAME>DioDevErrorDetect</SHORT-NAME>
+                  <VALUE>True</VALUE>
+                </ECUC-BOOLEAN-PARAM-VALUE><ECUC-BOOLEAN-PARAM-VALUE>
+                  <SHORT-NAME>DioFlipChannelApi</SHORT-NAME>
+                  <VALUE>True</VALUE>
+                </ECUC-BOOLEAN-PARAM-VALUE><ECUC-BOOLEAN-PARAM-VALUE>
+                  <SHORT-NAME>DioMaskedWritePortApi</SHORT-NAME>
+                  <VALUE>True</VALUE>
+                </ECUC-BOOLEAN-PARAM-VALUE><ECUC-BOOLEAN-PARAM-VALUE>
+                  <SHORT-NAME>DioVersionInfoApi</SHORT-NAME>
+                  <VALUE>True</VALUE>
+                </ECUC-BOOLEAN-PARAM-VALUE>
+              </PARAMETER-VALUES>
+            </ECUC-CONTAINER-VALUE><ECUC-CONTAINER-VALUE>
+              <SHORT-NAME>DioPort</SHORT-NAME>
+              <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR/EcucDefs/Dio/DioPort</DEFINITION-REF>
+              <PARAMETER-VALUES>
+                <ECUC-NUMERICAL-PARAM-VALUE>
+                  <SHORT-NAME>DioPortId</SHORT-NAME>
+                  <VALUE>0</VALUE>
+                </ECUC-NUMERICAL-PARAM-VALUE>
+              </PARAMETER-VALUES>
+            </ECUC-CONTAINER-VALUE><ECUC-CONTAINER-VALUE>
+              <SHORT-NAME>DioChannel</SHORT-NAME>
+              <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR/EcucDefs/Dio/DioChannel</DEFINITION-REF>
+              <PARAMETER-VALUES>
+                <ECUC-NUMERICAL-PARAM-VALUE>
+                  <SHORT-NAME>DioChannelId</SHORT-NAME>
+                  <VALUE>0</VALUE>
+                </ECUC-NUMERICAL-PARAM-VALUE>
+              </PARAMETER-VALUES>
+            </ECUC-CONTAINER-VALUE><ECUC-CONTAINER-VALUE>
+              <SHORT-NAME>DioChannelGroup</SHORT-NAME>
+              <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR/EcucDefs/Dio/DioChannelGroup</DEFINITION-REF>
+              <PARAMETER-VALUES>
+                <ECUC-TEXTUAL-PARAM-VALUE>
+                  <SHORT-NAME>DioChannelGroupIdentification</SHORT-NAME>
+                  <VALUE>DIO_GROUP_0</VALUE>
+                </ECUC-TEXTUAL-PARAM-VALUE><ECUC-NUMERICAL-PARAM-VALUE>
+                  <SHORT-NAME>DioPortMask</SHORT-NAME>
+                  <VALUE>255</VALUE>
+                </ECUC-NUMERICAL-PARAM-VALUE><ECUC-NUMERICAL-PARAM-VALUE>
+                  <SHORT-NAME>DioPortOffset</SHORT-NAME>
+                  <VALUE>0</VALUE>
+                </ECUC-NUMERICAL-PARAM-VALUE>
+              </PARAMETER-VALUES>
+            </ECUC-CONTAINER-VALUE><ECUC-CONTAINER-VALUE>
+              <SHORT-NAME>DioConfig</SHORT-NAME>
+              <DEFINITION-REF DEST="ECUC-PARAM-CONF-CONTAINER-DEF">/AUTOSAR/EcucDefs/Dio/DioConfig</DEFINITION-REF>
+              <PARAMETER-VALUES>
+                <ECUC-BOOLEAN-PARAM-VALUE>
+                  <SHORT-NAME>DioConfig</SHORT-NAME>
+                  <VALUE>True</VALUE>
+                </ECUC-BOOLEAN-PARAM-VALUE>
+              </PARAMETER-VALUES>
+            </ECUC-CONTAINER-VALUE>
+          </CONTAINERS>
+        </ECUC-MODULE-CONFIGURATION-VALUES>
+      </ELEMENTS>
+    </AR-PACKAGE>
+  </AR-PACKAGES>
+</AUTOSAR>
